@@ -1,48 +1,115 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-BR">
-<head>
+ <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lucas Ferreira | Desenvolvedor Front-End</title>
     <link rel="shortcut icon" href="./assets/favicon-32x32.png" type="image/png">
     <link rel="stylesheet" href="./css/styles.css">
     <script src="./js/script.js" defer></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>
-<body>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer">
+ </head>
+  <body>
     <header role="banner">
-        <nav aria-label="Menu principal">
-            <img src="./assets/logtypeLF.png" alt="Logo Lucas Ferreira">
-            <ul>
-                <li><a href="#home">Início</a></li>
-                <li><a href="#about">Sobre</a></li>
-                <li><a href="#projects">Projetos</a></li>
-                <li><a href="#habilities">Habilidades</a></li>
-                <li><a href="#contact" class="btn-contato">Contato</a></li>
-            </ul>
-        </nav>
+      <nav aria-label="Menu principal">
+        <img src="./assets/logtypeLF.png" alt="Logo Lucas Ferreira" />
+        <ul>
+          <li><a href="#home">Início</a></li>
+          <li><a href="#about">Sobre</a></li>
+          <li><a href="#projects">Projetos</a></li>
+          <li><a href="#habilities">Habilidades</a></li>
+          <li><a href="#contact" class="btn-contato">Contato</a></li>
+        </ul>
+      </nav>
     </header>
     <section id="home" class="hero" aria-label="Apresentação">
-        <div class="hero-content">
-            <h1><span>Lucas</span></h1>
-            <h2>Ferreira</h2>
-            <p>Desenvolvedor Front-End</p>
-            <div class="hero-links" aria-label="Redes sociais">
-                <a href="https://www.linkedin.com/in/lucas-ferreira-dos-santos-912879263" target="_blank" aria-label="LinkedIn de Lucas Ferreira">
-                    <i class="fab fa-linkedin" aria-hidden="true"></i>
-                </a>
-                <a href="https://github.com/LucasDEVfn" target="_blank" aria-label="GitHub de Lucas Ferreira">
-                    <i class="fa-brands fa-github" aria-hidden="true"></i>
-                </a>
-            </div>
+      <div class="hero-content">
+        <h1><span>Lucas</span></h1>
+        <h2>Ferreira</h2>
+        <p>Desenvolvedor Front-End</p>
+        <div class="hero-links" aria-label="Redes sociais">
+          <a
+            href="https://www.linkedin.com/in/lucas-ferreira-dos-santos-912879263"
+            target="_blank"
+            aria-label="LinkedIn de Lucas Ferreira"
+          >
+            <i class="fab fa-linkedin" aria-hidden="true"></i>
+          </a>
+          <a
+            href="https://github.com/LucasDEVfn"
+            target="_blank"
+            aria-label="GitHub de Lucas Ferreira"
+          >
+            <i class="fa-brands fa-github" aria-hidden="true"></i>
+          </a>
         </div>
-        <div class="hero-image">
-            <img src="./assets/fototeste.png" alt="Foto de Lucas Ferreira">
+      </div>
+      <div class="hero-image">
+        <img src="./assets/fototeste.png" alt="Foto de Lucas Ferreira" />
+      </div>
+    </section>
+    <section id="about" class="about" aria-label="Sobre mim">
+      <div class="container">
+        <h2 class="section-title">Sobre<span> Mim</span></h2>
+
+        <div class="about-content">
+          <div class="about-text">
+            <p>
+              Olá! Sou <strong>Lucas Ferreira</strong>, desenvolvedor front-end
+              iniciante apaixonado por tecnologia e pelo universo da
+              programação. Estou em constante evolução, construindo interfaces
+              modernas, responsivas e acessíveis utilizando HTML, CSS e
+              JavaScript.
+            </p>
+
+            <p>
+              Tenho experiência com Git para controle de versão e estou
+              estudando Docker para melhorar meu entendimento sobre ambientes de
+              desenvolvimento e deploy. Atualmente, estou aprofundando meus
+              conhecimentos em TypeScript e React, com foco em criar aplicações
+              mais robustas e escaláveis.
+            </p>
+
+            <p>
+              Busco oportunidades que me permitam ganhar experiência prática e
+              evoluir como desenvolvedor, com o objetivo de atuar no mercado
+              internacional e trabalhar em projetos globais. Acredito que
+              prática, consistência e curiosidade são essenciais para crescer na
+              área.
+            </p>
+
+            <p class="about-location">Localizado em São Luís, Brasil</p>
+          </div>
+          <div class="about-image">
+            <img
+              src="./assets/pngtree-developers-are-coding.png"
+              alt="Ilustração de desenvolvedor programando"
+            />
+          </div>
         </div>
+
+        <div class="about-cards">
+          <div class="card">
+            <i class="fas fa-code" aria-hidden="true"></i>
+            <h3>Focado em Resultados</h3>
+            <p>
+              Desenvolvimento de interfaces que priorizam experiência do usuário
+            </p>
+          </div>
+          <div class="card">
+            <i class="fas fa-lightbulb" aria-hidden="true"></i>
+            <h3>Sempre Aprendendo</h3>
+            <p>
+              Constantemente estudando novas tecnologias e melhores práticas
+            </p>
+          </div>
+          <div class="card">
+            <i class="fas fa-book-open" aria-hidden="true"></i>
+            <h3>Trabalho em Equipe</h3>
+            <p>Colaboração efetiva e comunicação clara com o time</p>
+          </div>
+        </div>
+      </div>
     </section>
-    <section id="about" aria-label="Sobre mim">
-        <h2>Sobre Mim</h2>
-        <p>Conteúdo sobre mim...</p>
-    </section>
-</body>
+  </body>
 </html>
