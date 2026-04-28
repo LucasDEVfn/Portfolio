@@ -1,27 +1,48 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfólio</title>
+    <title>Lucas Ferreira | Desenvolvedor Front-End</title>
     <link rel="shortcut icon" href="./assets/favicon-32x32.png" type="image/png">
     <link rel="stylesheet" href="./css/styles.css">
     <script src="./js/script.js" defer></script>
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <header>
-        
-        <nav>
+    <header role="banner">
+        <nav aria-label="Menu principal">
             <img src="./assets/logtypeLF.png" alt="Logo Lucas Ferreira">
             <ul>
                 <li><a href="#home">Início</a></li>
                 <li><a href="#about">Sobre</a></li>
                 <li><a href="#projects">Projetos</a></li>
                 <li><a href="#habilities">Habilidades</a></li>
-                <li><a href="#contact">Contato</a></li>
+                <li><a href="#contact" class="btn-contato">Contato</a></li>
             </ul>
         </nav>
     </header>
+    <section id="home" class="hero" aria-label="Apresentação">
+        <div class="hero-content">
+            <h1><span>Lucas</span></h1>
+            <h2>Ferreira</h2>
+            <p>Desenvolvedor Front-End</p>
+            <div class="hero-links" aria-label="Redes sociais">
+                <a href="https://www.linkedin.com/in/lucas-ferreira-dos-santos-912879263" target="_blank" aria-label="LinkedIn de Lucas Ferreira">
+                    <i class="fab fa-linkedin" aria-hidden="true"></i>
+                </a>
+                <a href="https://github.com/LucasDEVfn" target="_blank" aria-label="GitHub de Lucas Ferreira">
+                    <i class="fa-brands fa-github" aria-hidden="true"></i>
+                </a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="./assets/fototeste.png" alt="Foto de Lucas Ferreira">
+        </div>
+    </section>
+    <section id="about" aria-label="Sobre mim">
+        <h2>Sobre Mim</h2>
+        <p>Conteúdo sobre mim...</p>
+    </section>
 </body>
 </html>
