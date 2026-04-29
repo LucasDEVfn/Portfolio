@@ -4,12 +4,22 @@
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
+html {
+    scroll-behavior: smooth;
+}
 body {
   background-color: #0a0a0a;
 }
 header {
   border-bottom: 1px solid #eab308;
   padding: 0 40px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  backdrop-filter: blur(15px);
+  
 }
 .hero {
     height: 100vh !important;
