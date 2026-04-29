@@ -1,0 +1,82 @@
+@media (max-width: 768px) {
+    .hero{
+        height: auto;
+        padding: 40px 20px;
+    }
+    .hero-content h1{
+        font-size: 3rem;
+    }
+    .hero-content h2{
+        font-size: 4rem;
+    }
+    .hero-content p{
+        font-size: 1.5rem;
+    }
+    .hero-links a{
+        font-size: 2rem;
+        padding: 10px;
+    }
+    .hero-image img{
+        width: 100%;
+        max-width: 400px;
+    }
+    .container{
+        padding: 0 20px;
+    }
+    .section-title{
+        font-size: 3rem;
+    }
+    .about-content {
+        flex-direction: column;
+    }
+     .about-image img {
+        width: 100%;
+        max-width: 350px;
+        margin: 0 auto;
+        display: block;
+    }
+}
+@media (max-width: 480px) {
+    .hero {
+        flex-direction: column-reverse;
+        justify-content: center;
+        padding: 100px 20px 40px;
+        text-align: center;
+        gap: 20px;
+    }
+    .hero-content {
+        align-items: center;
+    }
+    .hero-content h1{
+        font-size: 2rem;
+        margin-top: 30px;
+    }
+    .hero-content h2 {
+        font-size: 3rem;
+        margin-top: 10px;
+    }
+    .hero-content p {
+        font-size: 1.2rem;
+    }
+    .about-cards {
+        flex-direction: column;
+    }
+    .projects-grid {
+        flex-direction: column;
+    }
+    .skills-grid {
+        grid-template-columns: repeat(2, 1fr);
+        max-width: 100%;
+        padding: 0 20px;
+    }
+    .contact-content {
+        flex-direction: column;
+    }
+    .contact-form {
+        width: 100%;
+    }
+    .form-group input,
+    .form-group textarea {
+        width: 100%;
+    }
+}
